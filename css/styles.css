@@ -11,6 +11,8 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 
 /* Global styles
 ------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
 html {
   box-sizing: border-box;
 }
@@ -77,6 +79,7 @@ h3 {
 header {
   background: brown;
   color:yellow;
+font-family: 'Acme';
 }
 
 
@@ -111,6 +114,21 @@ header {
 ------------------------------------*/
 .work-experience {
   background-color:dodgerblue;
+}
+
+.button {
+  background-color: darkslategrey;
+  color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.coso{
+    text-align: center;
 }
 
 
