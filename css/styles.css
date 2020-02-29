@@ -27,6 +27,7 @@ body {
   font-family: 'Comfortaa', sans-serif;
   font-size: 15px;
   line-height: 1.5;
+    background-color: yellow;
 }
 img {
   width: 300px;
@@ -80,13 +81,14 @@ header {
   background: brown;
   color:yellow;
 font-family: 'Acme';
+    margin: -3%;
 }
 
 
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #F7FFF7;
+  background: yellow;
 }
 .projects a {
   color:darkkhaki;
@@ -142,6 +144,7 @@ font-family: 'Acme';
   padding-bottom: 100px;
 }
 .education p {
+
   width: 60%;
 }
 
@@ -149,7 +152,7 @@ font-family: 'Acme';
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
+  background: brown;
   color: #F7FFF7;
 }
 .contact-list {
@@ -159,4 +162,24 @@ footer {
 .contact-list a {
   padding: 15px;
   display: inline-block;
+}
+
+/*gallery */
+.gallerysection {
+    left: 50%;
+    float: none;
+    position: static;
+    display: contents;
+    
+}
+.image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+    margin-left: 15%;
+}
+
+.image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
