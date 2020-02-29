@@ -22,7 +22,7 @@ body {
   color: #343434;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -30,10 +30,11 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+  color: aquamarine;
 }
 a:hover {
   text-decoration: none;
+    color: darkgreen;
 }
 h1 {
   font-size: 100px;
@@ -43,7 +44,7 @@ h2 {
   font-size: 45px;
 }
 h1, h2 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Raleway';
   font-weight: 400;
   margin: 0;
 }
@@ -74,8 +75,8 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
-  color: #F7FFF7;
+  background: brown;
+  color:yellow;
 }
 
 
@@ -85,18 +86,18 @@ header {
   background: #F7FFF7;
 }
 .projects a {
-  color: #2F3061;
+  color:darkkhaki;
 }
 .projects .btn {
-  color: #F7FFF7;
-  background: #2F3061;
+  color: darkred;
+  background: yellow;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
 }
 .projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
+  background: rgba(99, 38, 97, 80%);
 }
 .project-item {
   overflow: hidden;
@@ -109,7 +110,7 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background-color:dodgerblue;
 }
 
 
@@ -117,7 +118,7 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-image: url(../images/postit.jpg);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
